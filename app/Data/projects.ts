@@ -38,5 +38,16 @@ export const projects = [
       otherLink: "/reports/SafeMultiagentcontrol.pdf",
       other: "Report",
       tech: ["Python", "ROS", "Multi-Agent Systems"]
+    },
+
+    {
+      id: 5,
+      name: "Soft end effector",
+      image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800",
+      description: "This project aimed at making existing robotic solutions not only safe but also anthropomorphic. By jointly learning multi-agent control policy and CBF-based safety filters, safety was ensured in multi-agent settings while effectively accounting for uncertainty. Parallelly in a standard highway environment, it was shown that by using LLMs for reward shaping, standard DQN agents can be made to take actions that resemble actual human drivers",
+      github: "https://github.com/prachitgupta/multi-agent-control",
+      otherLink: "/reports/SafeMultiagentcontrol.pdf",
+      other: "Report",
+      tech: ["Python", "ROS", "Multi-Agent Systems"]
     }
   ];
