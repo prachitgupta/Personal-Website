@@ -26,7 +26,7 @@ export default function About() {
               </p>
               <div className="flex gap-4">
                 <a 
-                  href="/resume.pdf"
+                  href="/CV-ucsd.pdf"
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
                 >
                   <FileText className="w-4 h-4" />

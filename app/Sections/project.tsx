@@ -70,17 +70,27 @@ export default function Project() {
                         className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-md hover:bg-primary/90 transition-colors"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <Github className="w-4 h-4" />
-                        GitHub
+                        {project.firstIcon && <project.firstIcon className="w-4 h-4" />}
+                        {project.firstName}
                       </a>
                       <a
-                        href={project.otherLink}
+                        href={project.secondLink}
                         className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/90 transition-colors"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <FileText className="w-4 h-4" />
-                        {project.other}
+                        {project.secondIcon && <project.secondIcon className="w-4 h-4" />}
+                        {project.secondName}
                       </a>
+                      {project.thirdName != null  ?
+                      <a
+                        href={project.thirdLink}
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-secondary text-secondary-foreground rounded-md hover:bg-secondary/90 transition-colors"
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                         {project.thirdIcon && <project.thirdIcon className="w-4 h-4" />}
+                        {project.thirdName}
+                      </a> : ""}
+
                     </div>
                   </div>
                 </div>
