@@ -85,10 +85,10 @@ export const projects = [
           firstLink: "https://github.com/prachitgupta/Unmaned-Aerial-Systems",
           firstName:"Github",
           firstIcon: Github,
-          secondLink: "/reports/SafeMultiagentcontrol.pdf",
-          secondName: "Report",
-          secondIcon: FileText,
-          tech: ["Python", "ROS", "Multi-Agent Systems"]
+          secondLink: "https://umiciitb.github.io/",
+          secondName: "Team Website",
+          secondIcon: Earth,
+          tech: ["Python", "Mavros", "Ardupilot", "Lua", "Pixhawk", "ROS", "UAVs"]
         }
       // {
       //   id: 7,
