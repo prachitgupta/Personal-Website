@@ -11,7 +11,7 @@ export const projects = [
       secondLink: "/reports/advancedSafety.pdf",
       secondName: "Report",
       secondIcon:FileText,
-      thirdLink: "/reports/advancedSafety.pdf",
+      thirdLink: "https://www.canva.com/design/DAGDztMmSG4/UzZrxgzr-BPvTwX7jzqDXg/edit?utm_content=DAGDztMmSG4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       thirdName: "Presentation",
       thirdIcon:Youtube,
       tech: ["Hj-Reachability", "Dynamic Programming", "Matlab", "Python", "helperOc", "CVXPY","Casadi"]
