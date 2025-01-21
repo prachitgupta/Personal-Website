@@ -89,18 +89,18 @@ export const projects = [
           secondName: "Report",
           secondIcon: FileText,
           tech: ["Python", "ROS", "Multi-Agent Systems"]
-        },
-      {
-        id: 7,
-          name: "Soft Robotic Gripper",
-          image: "projectsLogo/soft-robotic.png",
-          description: "Designed and developed a compliant two-finger soft robotic gripper, optimized for adaptive handling of delicate items. Integrated into a 3-DOF robotic arm using servo motors, this project showcased the gripper's ability to safely handle varied shapes and textures, emphasizing its potential   in manufacturing with focus on human-centric environments.",
-          firstLink: "https://github.com/prachitgupta/multi-agent-control",
-          firstName:"Github",
-          firstIcon: Github,
-          secondLink: "/reports/SafeMultiagentcontrol.pdf",
-          secondName: "Report",
-          secondIcon: FileText,
-          tech: ["Python", "ROS", "Multi-Agent Systems"]
         }
+      // {
+      //   id: 7,
+      //     name: "Soft Robotic Gripper",
+      //     image: "projectsLogo/soft-robotic.png",
+      //     description: "Designed and developed a compliant two-finger soft robotic gripper, optimized for adaptive handling of delicate items. Integrated into a 3-DOF robotic arm using servo motors, this project showcased the gripper's ability to safely handle varied shapes and textures, emphasizing its potential   in manufacturing with focus on human-centric environments.",
+      //     firstLink: "https://github.com/prachitgupta/multi-agent-control",
+      //     firstName:"Github",
+      //     firstIcon: Github,
+      //     secondLink: "/reports/SafeMultiagentcontrol.pdf",
+      //     secondName: "Report",
+      //     secondIcon: FileText,
+      //     tech: ["Python", "ROS", "Multi-Agent Systems"]
+      //   }
   ];
