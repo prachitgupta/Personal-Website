@@ -1,4 +1,4 @@
-import { Earth, FileText, Github, Youtube } from "lucide-react";
+import { Ear, Earth, FileText, Github, Youtube } from "lucide-react";
 export const projects = [
     {
       id: 1,
@@ -26,7 +26,7 @@ export const projects = [
       firstIcon: Github,
       secondLink: "https://mithrilab.com/people/",
       secondName: "Machine Intelligence and HRI lab",
-      secondIcon:FileText,
+      secondIcon: Earth,
       tech: ["R0S2", "ROS", "Blazepose", "Unitree Go1", "Turtlebot4", "Python", "Person Following", "Reinforcemet Learning"]
     },
     
