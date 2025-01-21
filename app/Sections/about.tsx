@@ -19,7 +19,7 @@ export default function About() {
             </div>
             <div>
               <p className="text-lg mb-6">
-              I am a passionate robotics and AI enthusiast, actively learning newmethods to make robotic systems more robust, efficient, safe, andgeneralizable. As a self-motivated and ambitious student, I strive to pushthe boundaries of innovation and contribute to impactful advancementsin the field of robotics and AI.
+              I am a passionate robotics and AI enthusiast, actively learning newmethods to make robotic systems more robust, efficient, generalizable, and above all safe. As a self-motivated and ambitious student at <b>IIT Bombay</b>, I strive to push the boundaries of innovation and contribute to impactful advancements in the field of robotics and AI.
               </p>
               <p className="text-lg mb-6">
               To seamlessly integrate robots into human society by devising safe and robust robotic solutions that enrich and enhance people’s lives.

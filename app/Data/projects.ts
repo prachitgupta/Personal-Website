@@ -29,8 +29,9 @@ export const projects = [
       secondIcon:FileText,
       tech: ["C++", "ROS", "Arduino", "Control Systems"]
     },
+    
     {
-      id: 3,
+    id: 3,
       name: "Safe Multi-agent control",
       image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800",
       description: "This project aimed at making existing robotic solutions not only safe but also anthropomorphic. By jointly learning multi-agent control policy and CBF-based safety filters, safety was ensured in multi-agent settings while effectively accounting for uncertainty. Parallelly in a standard highway environment, it was shown that by using LLMs for reward shaping, standard DQN agents can be made to take actions that resemble actual human drivers",
@@ -41,18 +42,49 @@ export const projects = [
       secondName: "Report",
       secondIcon: FileText,
       tech: ["Python", "ROS", "Multi-Agent Systems"]
-    },
+    } ,
+
     {
       id: 4,
-      name: "Safe Multi-agent control",
+      name: "Unmanned Aerial Systems Challenge 2023",
       image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800",
-      description: "This project aimed at making existing robotic solutions not only safe but also anthropomorphic. By jointly learning multi-agent control policy and CBF-based safety filters, safety was ensured in multi-agent settings while effectively accounting for uncertainty. Parallelly in a standard highway environment, it was shown that by using LLMs for reward shaping, standard DQN agents can be made to take actions that resemble actual human drivers",
-      firstLink: "https://github.com/prachitgupta/multi-agent-control",
-      firstName:"Github",
-      firstIcon: Github,
+      description: "Played a leading role in the design and development of a 7kg drone for relief operations, which is capable of a 20+ minute flight and can carry a 6kg payload. Our team ranked 6th globally in the annual UAS challenge and won three awards in the following categories: Design, Scrutineering, and Advancement.",
+      firstLink: "https://drive.google.com/file/d/1C3rolvvV2CWDQvpjDuZrBEqoUA5R9XaV/view?usp=sharing",
+      firstName:"Final Run Video",
+      firstIcon: Youtube,
       secondLink: "/reports/SafeMultiagentcontrol.pdf",
-      secondName: "Report",
-      secondIcon: Earth,
-      tech: ["Python", "ROS", "Multi-Agent Systems"]
-    }
+      secondName: "Design and Development Report",
+      secondIcon: FileText,
+      thirdLink: "https://www.imeche.org/docs/default-source/1-oscar/challenges/uas-challenge/uas-2023/uasc-2023-final-scores.pdf?sfvrsn=2",
+      thirdName: "Results",
+      thirdIcon: FileText,
+      tech: ["Python", "Mavros", "Ardupilot", ""]
+    },
+    {
+      id: 6,
+        name: "Safe Multi-agent control",
+        image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800",
+        description: "This project aimed at making existing robotic solutions not only safe but also anthropomorphic. By jointly learning multi-agent control policy and CBF-based safety filters, safety was ensured in multi-agent settings while effectively accounting for uncertainty. Parallelly in a standard highway environment, it was shown that by using LLMs for reward shaping, standard DQN agents can be made to take actions that resemble actual human drivers",
+        firstLink: "https://github.com/prachitgupta/multi-agent-control",
+        firstName:"Github",
+        firstIcon: Github,
+        secondLink: "/reports/SafeMultiagentcontrol.pdf",
+        secondName: "Report",
+        secondIcon: FileText,
+        tech: ["Python", "ROS", "Multi-Agent Systems"]
+      },
+
+      {
+        id: 7,
+          name: "Safe Multi-agent control",
+          image: "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800",
+          description: "This project aimed at making existing robotic solutions not only safe but also anthropomorphic. By jointly learning multi-agent control policy and CBF-based safety filters, safety was ensured in multi-agent settings while effectively accounting for uncertainty. Parallelly in a standard highway environment, it was shown that by using LLMs for reward shaping, standard DQN agents can be made to take actions that resemble actual human drivers",
+          firstLink: "https://github.com/prachitgupta/multi-agent-control",
+          firstName:"Github",
+          firstIcon: Github,
+          secondLink: "/reports/SafeMultiagentcontrol.pdf",
+          secondName: "Report",
+          secondIcon: FileText,
+          tech: ["Python", "ROS", "Multi-Agent Systems"]
+        }
   ];
